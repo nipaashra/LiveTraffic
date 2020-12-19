@@ -3,7 +3,7 @@
 ## Display Live Traffic Of Singapore
 
 ### Screenshot 1:
-![alt text](https://github.com/nipaashra/LiveTraffic/blob/main/SingaporeLiveTraffic/Screenshots/screen1.png)
+![alt text](https://github.com/nipaashra/LiveTraffic/blob/main/SingaporeLiveTraffic/Screenshots/screen1.png  =320x564)
 
 ### Screenshot 2:
-![alt text](https://github.com/nipaashra/LiveTraffic/blob/main/SingaporeLiveTraffic/Screenshots/screen2.png)
+![alt text](https://github.com/nipaashra/LiveTraffic/blob/main/SingaporeLiveTraffic/Screenshots/screen2.png  =320x564)

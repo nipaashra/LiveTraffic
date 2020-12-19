@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey(googleAPIKey)
         UserLocationManger.shared.getCurrentLocation()
-        
         return true
     }
 

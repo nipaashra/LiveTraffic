@@ -32,8 +32,8 @@ enum LocationType: Int {
 
 class UserLocationManger: NSObject,CLLocationManagerDelegate {
     static let shared =  UserLocationManger()
-    var cLatitude:Double = 0.0
-    var cLongitude:Double = 0.0
+    var cLatitude:Double = 1.29027
+    var cLongitude:Double = 103.851959
     var isUpdateStartLocation: Bool = false
     var locationManager = CLLocationManager()
     var locValue = CLLocationCoordinate2D()
@@ -69,7 +69,6 @@ extension UserLocationManger{
         self.locValue = manager.location!.coordinate
         self.cLatitude = manager.location!.coordinate.latitude
         self.cLongitude = manager.location!.coordinate.longitude
-//        locationManager.stopUpdatingLocation()
     }
 
     func getAddress(lat:Double, long:Double) -> String{

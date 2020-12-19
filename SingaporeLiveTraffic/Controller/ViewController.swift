@@ -111,8 +111,9 @@ extension ViewController:GMSMapViewDelegate{
     }
    
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
-        self.infoWindow.center = mapView.projection.point(for: tappedmarker.position)
+        self.infoWindow.center = mapView.projection.point(for: self.tappedmarker.position)
         self.infoWindow.center.y = self.infoWindow.center.y - 90
+        
     }
 
 }

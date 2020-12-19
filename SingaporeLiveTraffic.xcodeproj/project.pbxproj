@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1857A19D258E1569007CACBF /* TrafficViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857A19C258E1569007CACBF /* TrafficViewModel.swift */; };
+		1857A1A0258E1EA5007CACBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857A19F258E1EA5007CACBF /* ViewController.swift */; };
+		1857A1C7258E2C61007CACBF /* SingaporeLiveTrafficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857A1C6258E2C61007CACBF /* SingaporeLiveTrafficTests.swift */; };
+		1857A1D1258E2F9B007CACBF /* LiveTrafficApiTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857A1D0258E2F9B007CACBF /* LiveTrafficApiTestCase.swift */; };
+		18E55A59258D90D8007D5B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A58258D90D8007D5B1D /* AppDelegate.swift */; };
+		18E55A5B258D90D8007D5B1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A5A258D90D8007D5B1D /* SceneDelegate.swift */; };
+		18E55A60258D90D8007D5B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E55A5E258D90D8007D5B1D /* Main.storyboard */; };
+		18E55A62258D90DA007D5B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E55A61258D90DA007D5B1D /* Assets.xcassets */; };
+		18E55A65258D90DA007D5B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E55A63258D90DA007D5B1D /* LaunchScreen.storyboard */; };
+		18E55A74258D98E2007D5B1D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A73258D98E2007D5B1D /* Constant.swift */; };
+		18E55A79258D9D68007D5B1D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A78258D9D68007D5B1D /* Extension.swift */; };
+		18E55A7C258DAFBE007D5B1D /* TrafficInfoDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A7B258DAFBE007D5B1D /* TrafficInfoDM.swift */; };
+		18E55A80258DBFCB007D5B1D /* NATrafficInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55A7F258DBFCB007D5B1D /* NATrafficInfoApi.swift */; };
+		18E55AA2258DCCA4007D5B1D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E55AA1258DCCA3007D5B1D /* Accelerate.framework */; };
+		18E55AA4258DCCEE007D5B1D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E55AA3258DCCEE007D5B1D /* CoreBluetooth.framework */; };
+		18E55AA7258DD5DE007D5B1D /* UserLocationManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55AA6258DD5DE007D5B1D /* UserLocationManger.swift */; };
+		18E55ACD258DEF3B007D5B1D /* CustomInfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E55ACC258DEF3B007D5B1D /* CustomInfoWindowView.swift */; };
+		18E55ACF258DEF53007D5B1D /* CustomInfoWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E55ACE258DEF53007D5B1D /* CustomInfoWindowView.xib */; };
+		816688010FAF3FB7500A0C68 /* Pods_SingaporeLiveTraffic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB584093C5EB9CE233DE8307 /* Pods_SingaporeLiveTraffic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1857A1C9258E2C61007CACBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E55A4D258D90D8007D5B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E55A54258D90D8007D5B1D;
+			remoteInfo = SingaporeLiveTraffic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1857A19C258E1569007CACBF /* TrafficViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficViewModel.swift; sourceTree = "<group>"; };
+		1857A19F258E1EA5007CACBF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1857A1A8258E20AD007CACBF /* SingaporeLiveTrafficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingaporeLiveTrafficTests.swift; sourceTree = "<group>"; };
+		1857A1AA258E20AD007CACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857A1B8258E20B7007CACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857A1C4258E2C61007CACBF /* SingaporeLiveTrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingaporeLiveTrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1857A1C6258E2C61007CACBF /* SingaporeLiveTrafficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingaporeLiveTrafficTests.swift; sourceTree = "<group>"; };
+		1857A1C8258E2C61007CACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857A1D0258E2F9B007CACBF /* LiveTrafficApiTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTrafficApiTestCase.swift; sourceTree = "<group>"; };
+		18E55A55258D90D8007D5B1D /* SingaporeLiveTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingaporeLiveTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E55A58258D90D8007D5B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E55A5A258D90D8007D5B1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E55A5F258D90D8007D5B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E55A61258D90DA007D5B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E55A64258D90DA007D5B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E55A66258D90DA007D5B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E55A73258D98E2007D5B1D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18E55A78258D9D68007D5B1D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		18E55A7B258DAFBE007D5B1D /* TrafficInfoDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficInfoDM.swift; sourceTree = "<group>"; };
+		18E55A7F258DBFCB007D5B1D /* NATrafficInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NATrafficInfoApi.swift; sourceTree = "<group>"; };
+		18E55AA1258DCCA3007D5B1D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		18E55AA3258DCCEE007D5B1D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		18E55AA6258DD5DE007D5B1D /* UserLocationManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationManger.swift; sourceTree = "<group>"; };
+		18E55ACC258DEF3B007D5B1D /* CustomInfoWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindowView.swift; sourceTree = "<group>"; };
+		18E55ACE258DEF53007D5B1D /* CustomInfoWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindowView.xib; sourceTree = "<group>"; };
+		2D4D24FB2802A0A8F6407E8B /* Pods-SingaporeLiveTraffic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingaporeLiveTraffic.release.xcconfig"; path = "Target Support Files/Pods-SingaporeLiveTraffic/Pods-SingaporeLiveTraffic.release.xcconfig"; sourceTree = "<group>"; };
+		3FB107D411532B27F6C9ABFB /* Pods-SingaporeLiveTraffic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingaporeLiveTraffic.debug.xcconfig"; path = "Target Support Files/Pods-SingaporeLiveTraffic/Pods-SingaporeLiveTraffic.debug.xcconfig"; sourceTree = "<group>"; };
+		AB584093C5EB9CE233DE8307 /* Pods_SingaporeLiveTraffic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingaporeLiveTraffic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1857A1C1258E2C61007CACBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E55A52258D90D8007D5B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E55AA4258DCCEE007D5B1D /* CoreBluetooth.framework in Frameworks */,
+				18E55AA2258DCCA4007D5B1D /* Accelerate.framework in Frameworks */,
+				816688010FAF3FB7500A0C68 /* Pods_SingaporeLiveTraffic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1857A19B258E153F007CACBF /* TrafficViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1857A19C258E1569007CACBF /* TrafficViewModel.swift */,
+			);
+			path = TrafficViewModel;
+			sourceTree = "<group>";
+		};
+		1857A19E258E1EA5007CACBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1857A19F258E1EA5007CACBF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1857A1A7258E20AD007CACBF /* SingaporeLiveTrafficTests */ = {
+			isa = PBXGroup;
+			children = (
+				1857A1A8258E20AD007CACBF /* SingaporeLiveTrafficTests.swift */,
+				1857A1AA258E20AD007CACBF /* Info.plist */,
+				1857A1D0258E2F9B007CACBF /* LiveTrafficApiTestCase.swift */,
+			);
+			path = SingaporeLiveTrafficTests;
+			sourceTree = "<group>";
+		};
+		1857A1B5258E20B7007CACBF /* SingaporeLiveTrafficUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1857A1B8258E20B7007CACBF /* Info.plist */,
+			);
+			path = SingaporeLiveTrafficUITests;
+			sourceTree = "<group>";
+		};
+		1857A1C5258E2C61007CACBF /* SingaporeLiveTrafficTests */ = {
+			isa = PBXGroup;
+			children = (
+				1857A1C6258E2C61007CACBF /* SingaporeLiveTrafficTests.swift */,
+				1857A1C8258E2C61007CACBF /* Info.plist */,
+			);
+			path = SingaporeLiveTrafficTests;
+			sourceTree = "<group>";
+		};
+		18E55A4C258D90D8007D5B1D = {
+			isa = PBXGroup;
+			children = (
+				18E55A57258D90D8007D5B1D /* SingaporeLiveTraffic */,
+				1857A1A7258E20AD007CACBF /* SingaporeLiveTrafficTests */,
+				1857A1B5258E20B7007CACBF /* SingaporeLiveTrafficUITests */,
+				1857A1C5258E2C61007CACBF /* SingaporeLiveTrafficTests */,
+				18E55A56258D90D8007D5B1D /* Products */,
+				506CEF3DA8C45805F4775D54 /* Pods */,
+				73CC8CE678985240EB6A1C4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E55A56258D90D8007D5B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A55258D90D8007D5B1D /* SingaporeLiveTraffic.app */,
+				1857A1C4258E2C61007CACBF /* SingaporeLiveTrafficTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E55A57258D90D8007D5B1D /* SingaporeLiveTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A77258D9D56007D5B1D /* Category */,
+				18E55A72258D98D7007D5B1D /* Constant */,
+				18E55A6C258D970C007D5B1D /* Helper */,
+				18E55ACB258DEF1F007D5B1D /* CustomView */,
+				18E55A7A258DAF64007D5B1D /* Model */,
+				1857A19B258E153F007CACBF /* TrafficViewModel */,
+				1857A19E258E1EA5007CACBF /* Controller */,
+				18E55A58258D90D8007D5B1D /* AppDelegate.swift */,
+				18E55A5A258D90D8007D5B1D /* SceneDelegate.swift */,
+				18E55A5E258D90D8007D5B1D /* Main.storyboard */,
+				18E55A61258D90DA007D5B1D /* Assets.xcassets */,
+				18E55A63258D90DA007D5B1D /* LaunchScreen.storyboard */,
+				18E55A66258D90DA007D5B1D /* Info.plist */,
+			);
+			path = SingaporeLiveTraffic;
+			sourceTree = "<group>";
+		};
+		18E55A6C258D970C007D5B1D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18E55AA5258DD5D4007D5B1D /* MAPClass */,
+				18E55A6F258D97CA007D5B1D /* APIManager */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18E55A6F258D97CA007D5B1D /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A7F258DBFCB007D5B1D /* NATrafficInfoApi.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		18E55A72258D98D7007D5B1D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A73258D98E2007D5B1D /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		18E55A77258D9D56007D5B1D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A78258D9D68007D5B1D /* Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18E55A7A258DAF64007D5B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18E55A7B258DAFBE007D5B1D /* TrafficInfoDM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E55AA5258DD5D4007D5B1D /* MAPClass */ = {
+			isa = PBXGroup;
+			children = (
+				18E55AA6258DD5DE007D5B1D /* UserLocationManger.swift */,
+			);
+			path = MAPClass;
+			sourceTree = "<group>";
+		};
+		18E55ACB258DEF1F007D5B1D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				18E55ACC258DEF3B007D5B1D /* CustomInfoWindowView.swift */,
+				18E55ACE258DEF53007D5B1D /* CustomInfoWindowView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		506CEF3DA8C45805F4775D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FB107D411532B27F6C9ABFB /* Pods-SingaporeLiveTraffic.debug.xcconfig */,
+				2D4D24FB2802A0A8F6407E8B /* Pods-SingaporeLiveTraffic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73CC8CE678985240EB6A1C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E55AA3258DCCEE007D5B1D /* CoreBluetooth.framework */,
+				18E55AA1258DCCA3007D5B1D /* Accelerate.framework */,
+				AB584093C5EB9CE233DE8307 /* Pods_SingaporeLiveTraffic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1857A1C3258E2C61007CACBF /* SingaporeLiveTrafficTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1857A1CB258E2C61007CACBF /* Build configuration list for PBXNativeTarget "SingaporeLiveTrafficTests" */;
+			buildPhases = (
+				1857A1C0258E2C61007CACBF /* Sources */,
+				1857A1C1258E2C61007CACBF /* Frameworks */,
+				1857A1C2258E2C61007CACBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1857A1CA258E2C61007CACBF /* PBXTargetDependency */,
+			);
+			name = SingaporeLiveTrafficTests;
+			productName = SingaporeLiveTrafficTests;
+			productReference = 1857A1C4258E2C61007CACBF /* SingaporeLiveTrafficTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E55A54258D90D8007D5B1D /* SingaporeLiveTraffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E55A69258D90DA007D5B1D /* Build configuration list for PBXNativeTarget "SingaporeLiveTraffic" */;
+			buildPhases = (
+				CE62C231A6486007DC336961 /* [CP] Check Pods Manifest.lock */,
+				18E55A51258D90D8007D5B1D /* Sources */,
+				18E55A52258D90D8007D5B1D /* Frameworks */,
+				18E55A53258D90D8007D5B1D /* Resources */,
+				40C52E318C543D635743FC4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingaporeLiveTraffic;
+			productName = SingaporeLiveTraffic;
+			productReference = 18E55A55258D90D8007D5B1D /* SingaporeLiveTraffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E55A4D258D90D8007D5B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1857A1C3258E2C61007CACBF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 18E55A54258D90D8007D5B1D;
+					};
+					18E55A54258D90D8007D5B1D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18E55A50258D90D8007D5B1D /* Build configuration list for PBXProject "SingaporeLiveTraffic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E55A4C258D90D8007D5B1D;
+			productRefGroup = 18E55A56258D90D8007D5B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E55A54258D90D8007D5B1D /* SingaporeLiveTraffic */,
+				1857A1C3258E2C61007CACBF /* SingaporeLiveTrafficTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1857A1C2258E2C61007CACBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E55A53258D90D8007D5B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E55A65258D90DA007D5B1D /* LaunchScreen.storyboard in Resources */,
+				18E55A62258D90DA007D5B1D /* Assets.xcassets in Resources */,
+				18E55A60258D90D8007D5B1D /* Main.storyboard in Resources */,
+				18E55ACF258DEF53007D5B1D /* CustomInfoWindowView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40C52E318C543D635743FC4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingaporeLiveTraffic/Pods-SingaporeLiveTraffic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SingaporeLiveTraffic/Pods-SingaporeLiveTraffic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SingaporeLiveTraffic/Pods-SingaporeLiveTraffic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE62C231A6486007DC336961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingaporeLiveTraffic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1857A1C0258E2C61007CACBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857A1D1258E2F9B007CACBF /* LiveTrafficApiTestCase.swift in Sources */,
+				1857A1C7258E2C61007CACBF /* SingaporeLiveTrafficTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E55A51258D90D8007D5B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857A1A0258E1EA5007CACBF /* ViewController.swift in Sources */,
+				18E55A59258D90D8007D5B1D /* AppDelegate.swift in Sources */,
+				18E55A7C258DAFBE007D5B1D /* TrafficInfoDM.swift in Sources */,
+				18E55A79258D9D68007D5B1D /* Extension.swift in Sources */,
+				18E55A80258DBFCB007D5B1D /* NATrafficInfoApi.swift in Sources */,
+				18E55ACD258DEF3B007D5B1D /* CustomInfoWindowView.swift in Sources */,
+				1857A19D258E1569007CACBF /* TrafficViewModel.swift in Sources */,
+				18E55AA7258DD5DE007D5B1D /* UserLocationManger.swift in Sources */,
+				18E55A74258D98E2007D5B1D /* Constant.swift in Sources */,
+				18E55A5B258D90D8007D5B1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1857A1CA258E2C61007CACBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E55A54258D90D8007D5B1D /* SingaporeLiveTraffic */;
+			targetProxy = 1857A1C9258E2C61007CACBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E55A5E258D90D8007D5B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E55A5F258D90D8007D5B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E55A63258D90DA007D5B1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E55A64258D90DA007D5B1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1857A1CC258E2C61007CACBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SingaporeLiveTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreehari.SingaporeLiveTrafficTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingaporeLiveTraffic.app/SingaporeLiveTraffic";
+			};
+			name = Debug;
+		};
+		1857A1CD258E2C61007CACBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SingaporeLiveTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreehari.SingaporeLiveTrafficTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingaporeLiveTraffic.app/SingaporeLiveTraffic";
+			};
+			name = Release;
+		};
+		18E55A67258D90DA007D5B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E55A68258D90DA007D5B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E55A6A258D90DA007D5B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB107D411532B27F6C9ABFB /* Pods-SingaporeLiveTraffic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SingaporeLiveTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreehari.SingaporeLiveTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E55A6B258D90DA007D5B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4D24FB2802A0A8F6407E8B /* Pods-SingaporeLiveTraffic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SingaporeLiveTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreehari.SingaporeLiveTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1857A1CB258E2C61007CACBF /* Build configuration list for PBXNativeTarget "SingaporeLiveTrafficTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1857A1CC258E2C61007CACBF /* Debug */,
+				1857A1CD258E2C61007CACBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E55A50258D90D8007D5B1D /* Build configuration list for PBXProject "SingaporeLiveTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E55A67258D90DA007D5B1D /* Debug */,
+				18E55A68258D90DA007D5B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E55A69258D90DA007D5B1D /* Build configuration list for PBXNativeTarget "SingaporeLiveTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E55A6A258D90DA007D5B1D /* Debug */,
+				18E55A6B258D90DA007D5B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E55A4D258D90D8007D5B1D /* Project object */;
+}
